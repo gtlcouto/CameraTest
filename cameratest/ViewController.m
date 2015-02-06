@@ -23,9 +23,12 @@
     // Do any additional setup after loading the view, typically from a nib.
 
 }
+- (IBAction)onButtonPressed:(id)sender {
+    [self openCamera];
+}
 -(void)viewDidAppear:(BOOL)animated
 {
- [self openCamera];
+
 }
 //Present DBCameraViewController with different behaviours
 
